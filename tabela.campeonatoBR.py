@@ -1,0 +1,16 @@
+times = ('Flamengo' , 'Vasco' , 'Botafogo', 'Santos' , 'Atlético - MG' , 'Atlético - PR' , 'São Paulo' , 
+        'Palmeiras' , 'Grêmio' , 'Sport' , 'Fortaleza' , 'Coritiba' ,  'Bahia'
+        ,'Internacional' , 'Fluminense' , 'Cortinthians' , 'Bragantino' , 'Ceará' , 'Goiás' , 'Atlético - GO' , )
+print('----  CLASSIFICAÇÃO DO CAMPEONATO BRASILEIRO  ----')
+print(times)
+print('-'*55)
+print('Os 5 primeiros estão classificados para a Libertadores:')
+print(times[0:5])
+print('-'*55)
+print('Os 4 Últimos estão REBAIXADOS:')
+print(times[-4:])
+print('-'*55)
+print(' Os times em ordem alfabética: ')
+print(sorted(times))
+print('-'*55)
+print(f'O Vasco está na posição {times.index("Vasco")+1}')
